@@ -14,7 +14,7 @@ async function init() {
     response: { results }
   } = await unsplash.search.getPhotos({
     query: 'nyc',
-    page: 3,
+    page: 4,
     perPage: 30,
     color: 'black_and_white',
     orientation: 'landscape'
